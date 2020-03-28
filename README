@@ -1,3 +1,10 @@
+Adds Subsricber User to your Wordpress installation via JSON API Call
+
+You need to Specify Content-Type
+
+The API Urls is: https://yourUrl.com/wp-json/JSONCreateUserAPI/v1/Users/
+
+
     'user_pass'             //(string) The plain-text user password. *required
     'user_login'            //(string) The user's login username. *required
     'user_nicename'         //(string) The URL-friendly user name.
@@ -15,5 +22,4 @@
     'use_ssl'               //(bool) Whether the user should always access the admin over https. Default false.
     'user_registered'       //(string) Date the user registered. Format is 'Y-m-d H:i:s'.
     'show_admin_bar_front'  //(string|bool) Whether to display the Admin Bar for the user on the site's front end. Default true.
-    'role'                  //(string) User's role.
     'locale'                //(string) User's locale. Default empty.
